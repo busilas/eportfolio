@@ -1,0 +1,163 @@
+/* NOTE: use font-display: swap; to show temp font...*/
+
+/*
+ *  # NORMAL
+ *  200; AIAIAIv4-Light.woff2
+ *  400; AIAIAIv4-Normal.woff2
+ *  500; AIAIAIv4-Medium.woff2
+ *  700; AIAIAIv4-Bold.woff2
+ *  900; AIAIAIv4-Black.woff2
+ */
+
+/* 200 Light  */
+@font-face {
+  font-family: "AIAIAI";
+  font-style: normal;
+  font-weight: 200;
+  src: url(fonts/AIAIAIv4-Light.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 400 Normal  */
+@font-face {
+  font-family: "AIAIAI";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/AIAIAIv4-Normal.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 500 Medium  */
+@font-face {
+  font-family: "AIAIAI";
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/AIAIAIv4-Medium.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 700 Bold  */
+@font-face {
+  font-family: "AIAIAI";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AIAIAIv4-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 800 Black  */
+@font-face {
+  font-family: "AIAIAI";
+  font-style: normal;
+  font-weight: 800;
+  src: url(fonts/AIAIAIv4-Black.woff2) format("woff2");
+  font-display: swap;
+}
+
+/*
+ *  # EXTENDED
+ *  200; AIAIAIv4-LightExtended.woff2
+ *  400; AIAIAIv4-NormalExtended.woff2
+ *  500; AIAIAIv4-MediumExtended.woff2
+ *  700; AIAIAIv4-BoldExtended.woff2
+ *  900; AIAIAIv4-BlackExtended.woff2
+ */
+
+/* 200 Light  */
+@font-face {
+  font-family: "AIAIAI Extended";
+  font-style: normal;
+  font-weight: 200;
+  src: url(fonts/AIAIAIv4-LightExtended.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 400 Normal  */
+@font-face {
+  font-family: "AIAIAI Extended";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/AIAIAIv4-NormalExtended.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 500 Medium  */
+@font-face {
+  font-family: "AIAIAI Extended";
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/AIAIAIv4-MediumExtended.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 700 Bold  */
+@font-face {
+  font-family: "AIAIAI Extended";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AIAIAIv4-BoldExtended.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 800 Black  */
+@font-face {
+  font-family: "AIAIAI Extended";
+  font-style: normal;
+  font-weight: 800;
+  src: url(fonts/AIAIAIv4-BlackExtended.woff2) format("woff2");
+  font-display: swap;
+}
+
+/*
+ * # CONDENSED
+ * 200; AIAIAIv4-LightCondensed.woff2
+ * 400; AIAIAIv4-NormalCondensed.woff2 
+ * 500; AIAIAIv4-MediumCondensed.woff2
+ * 700; AIAIAIv4-BoldCondensed.woff2
+ * 900; AIAIAIv4-BlackCondensed.woff2
+*/
+
+/* 200 Light  */
+@font-face {
+  font-family: "AIAIAI Condensed";
+  font-style: normal;
+  font-weight: 200;
+  src: url(fonts/AIAIAIv4-LightCondensed.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 400 Normal  */
+@font-face {
+  font-family: "AIAIAI Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/AIAIAIv4-NormalCondensed.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 500 Medium  */
+@font-face {
+  font-family: "AIAIAI Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/AIAIAIv4-MediumCondensed.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 700 Bold  */
+@font-face {
+  font-family: "AIAIAI Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/AIAIAIv4-BoldCondensed.woff2) format("woff2");
+  font-display: swap;
+}
+
+/* 800 Black  */
+@font-face {
+  font-family: "AIAIAI Condensed";
+  font-style: normal;
+  font-weight: 800;
+  src: url(fonts/AIAIAIv4-BlackCondensed.woff2) format("woff2");
+  font-display: swap;
+}
