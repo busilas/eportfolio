@@ -1,0 +1,585 @@
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Light"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Semilight"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Bold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Semibold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
+    font-weight: 700;
+}
+
+/* 200 Light  */
+@font-face {
+font-family: "AIAIAI";
+font-style: normal;
+font-weight: 200;
+src: url(../fonts/AIAIAIv4-Light.woff2) format("woff2");
+font-display: swap;
+}
+
+segoeuib.woff
+
+/* 400 Normal  */
+@font-face {
+font-family: "AIAIAI";
+font-style: normal;
+font-weight: 400;
+src: url(../fonts/AIAIAIv4-Normal.woff2) format("woff2");
+font-display: swap;
+}
+
+/* 500 Medium  */
+@font-face {
+font-family: "AIAIAI";
+font-style: normal;
+font-weight: 500;
+src: url(../fonts/AIAIAIv4-Medium.woff2) format("woff2");
+font-display: swap;
+}
+
+/* 700 Bold  */
+@font-face {
+font-family: "AIAIAI";
+font-style: normal;
+font-weight: 700;
+src: url(../fonts/AIAIAIv4-Bold.woff2) format("woff2");
+font-display: swap;
+}
+
+/* 800 Black  */
+@font-face {
+font-family: "AIAIAI";
+font-style: normal;
+font-weight: 800;
+src: url(../fonts/AIAIAIv4-Black.woff2) format("woff2");
+font-display: swap;
+}
+
+body {
+	font-family: 'AIAIAI', sans-serif;
+	font-size: 16px;
+	background-color: #080808;
+	color: #fdfefe;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'AIAIAI', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 5.2vw;
+}
+
+h1 span {
+color: rgb(203, 255, 15);
+}
+
+/*NAVIGACIJA*/
+
+.bg-dark {
+background-color: #000!important;
+}
+
+#navbarNav {
+justify-content: flex-end;
+}
+
+.navbar-brand {
+color: #fdfefe!important;
+font-size: 30px!important;
+}
+
+.navbar-nav {
+--bs-nav-link-color: #fdfefe;
+--bs-nav-link-hover-color: #fdfefe;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+color: #fdfefe;
+}
+
+.custom-toggler.navbar-toggler {
+border-color: rgb(0,0,0)!important;
+}
+
+.container-fluid {
+	padding-right: var(--bs-gutter-x,5%);
+	padding-left: var(--bs-gutter-x,5%);
+}
+
+/*LINES*/
+
+hr.solid {
+	border-top: 2px solid #fdfefe;
+}
+
+hr.hr-text {
+	position: relative;
+	border: none;
+	height: 1px;
+	background: #999;
+}
+
+hr.hr-text::before {
+	content: attr(data-content);
+	display: inline-block;
+	background: #fff;
+	font-weight: bold;
+	font-size: 0.85rem;
+	color: #999;
+	border-radius: 30rem;
+	padding: 0.2rem 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*HAMBURGERIO SPALVOS KEITIMAS*/
+
+.custom-toggler.navbar-toggler {
+	border-color: rgb(0,163,226);
+} 
+
+/*KONTEINERIS*/
+
+.mycontainer {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.pl-5 {
+	padding-left: 5%;
+} 
+
+.pd-5 {
+	padding-right: 5%;
+}
+
+
+/*UŽRAŠAS*/
+
+.home {
+	margin-top: 130px;
+}
+
+.js-clock {
+	font-size: 13px;
+}
+
+
+/*PROJECT GRID*/
+
+.grid {
+	margin-top: 70px;
+}
+
+.card {
+	border: 0;
+	border-radius: 0;
+	background-color: #080808;
+	padding: 1em 0.7em 1em 0.7em;
+	color: #ffffff;
+	/*border-radius: 0rem 0rem 2.8rem 0rem;*/
+	min-height: 290px;
+	position: relative;
+}
+
+.card-icon h2 {
+	font-size: 100px;
+	font-weight: 200;
+	color: rgb(203, 255, 15);
+	opacity: .8;
+}
+
+.card h6 {
+	font-size: 1.1rem;
+}
+
+.card:hover {
+	background-color: rgb(203, 255, 15);
+	color: #080808;
+}
+
+.card:hover h2 {
+	color: #080808;
+}
+
+.border-white:hover {
+	border-color: rgb(203, 255, 15)!important;
+}
+
+.top-align-text {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+}
+
+.bottom-align-text {
+	position: absolute;
+	bottom: 10%;
+}
+
+
+/*PROJEKTAI*/
+
+.project {
+	margin-top: 130px;
+}
+
+h6.module-no {
+	padding-top: 10px;
+	font-weight: 700;
+
+}
+
+.hero-image img{
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.unit {
+	margin-top: 130px;
+}
+
+.unit-desc {
+	margin-bottom: 100px;
+}
+
+.project .infoproject {
+	width: 100%;
+	margin-left: -30px;
+}
+
+.project .infoproject li {
+	list-style: none;
+	float: left;
+	margin-right: 35px;
+	font-weight: 400; 
+}
+
+.project .infoproject li span {
+	font-weight: 900;
+}
+
+.project .project-title {
+	font-size: 52px;
+	font-weight: 500;
+	line-height: 56px;
+}
+
+.project p {
+	line-height: 30px;
+	color: grey;
+}
+
+.project-lightbox p {
+	line-height: 30px;
+}
+
+.number {
+	font-size: 46px;
+	color: #E9E9E9;
+	font-weight: 700;
+	margin-right: 8px;
+}
+
+.project-video iframe {
+	width: 100%;
+	min-height: 750px;
+}
+
+
+/*ABOUT*/
+
+.about-text .subtitle {
+	letter-spacing: -1;
+	font-size: 26px;
+}
+
+.about-text p {
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 90px;
+}
+
+.progress .progress-bar {
+	background: grey;
+}
+
+.progress {
+	border-radius: 16px;
+}
+
+/*.progress {
+	background-color: red;
+}*/
+
+p.nopad {
+	margin-bottom: 2px;
+}
+
+.exp-title h3 {
+	margin-bottom: 28px;
+}
+
+.btn {
+	border-radius: 0;
+	padding: 12px 26px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+} 
+
+
+.btn-outline-secondary:hover {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+
+/*KONTAKTAI*/
+
+input.info {
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 12px 15px;
+	border: solid 1px #212121;
+	border-radius: 25px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+textarea.message {
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 12px 15px;
+	border: solid 1px #212121;
+	border-radius: 25px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+a.email {
+	text-decoration: none;
+	color: #212529;
+}
+
+a.email:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.fa {
+	margin-right: 15px;
+	color: grey;
+	font-size: 18px;
+}
+
+.fa:hover {
+	color: green;
+}
+
+
+/*SPACINGS*/
+
+.top_90 {
+	margin-top: 90px;
+}
+
+.top_40 {
+	margin-top: 40px;
+}
+
+/*Spalvų keitimas navui*/
+
+/*.navbar-light .navbar-nav .nav-link:hover {
+	color: red;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	color: yellow;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}*/
+
+/*.dist {
+	margin-top: 1rem;
+}*/
+
+
+.bg {
+	background-color: #666;
+}
+
+.bgr {
+	background-color: red;
+}
+
+
+/*JUODAI BALTA NUOTRAUKA*/
+
+/*img {
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+
+img:hover {
+	filter: grayscale(0%);
+}*/
+
+.parallax {
+	/* The image used */
+	background-image: url("../img/hero1.jpg");
+
+	/* Set a specific height */
+	min-height: 750px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.parallax1 {
+	/* The image used */
+	background-image: url("../img/hero1.jpg");
+	/* Full height and width */
+	height: 100vh; 
+	width:auto;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+
+/*FOOTER*/
+
+a.back {
+	text-decoration: none;
+	color: grey;
+}
+
+footer {
+	margin-top: 70px;
+}
+
+
+/*BUTTON*/
+
+/*.my-link {
+	display: inline-block;
+}*/
+
+
+.link-text {
+    font-family: "AIAIAI";
+    height: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    line-height: 0.75;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(203, 255, 15);
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.link-arrow {
+    width: 45px;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+    transition: transform 0.2s ease 0s;
+    margin-left: 1.25rem;
+    stroke: rgb(203, 255, 15);
+}
+
+a {
+	text-decoration: none;
+}
+
+.link-text:hover {
+	color: #9AC00F;
+}
+
+.text-link  {
+/*	text-decoration: underline;*/
+	color: rgb(203, 255, 15);
+}
+
+.text-link:hover {
+	color: #9AC00F;
+}
+
+/*img {
+  -webkit-filter: grayscale(100%);  
+  filter: grayscale(100%);
+}
+*/
+
+/*img {
+	filter: brightness(0.5) saturate(0%);
+}
+*/
+/*img {
+	filter: hue-rotate(180deg);
+}*/
+
+.about, .contact {
+	font-size: 12vw;
+	text-transform: uppercase;
+}
