@@ -1,12 +1,3 @@
-/* 200 Light  */
-@font-face {
-font-family: "AIAIAI";
-font-style: normal;
-font-weight: 200;
-src: url(../fonts/AIAIAIv4-Light.woff2) format("woff2");
-font-display: swap;
-}
-
 /* 400 Normal  */
 @font-face {
 font-family: "AIAIAI";
@@ -16,15 +7,8 @@ src: url(../fonts/AIAIAIv4-Normal.woff2) format("woff2");
 font-display: swap;
 }
 
-/* 500 Medium  */
-@font-face {
-font-family: "AIAIAI";
-font-style: normal;
-font-weight: 500;
-src: url(../fonts/AIAIAIv4-Medium.woff2) format("woff2");
-font-display: swap;
-}
 
+*/
 /* 700 Bold  */
 @font-face {
 font-family: "AIAIAI";
