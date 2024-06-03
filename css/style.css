@@ -515,3 +515,8 @@ a {
 	font-size: 12vw;
 	text-transform: uppercase;
 }
+
+.list {
+	margin-bottom: 0px!important;
+	margin-left: 20px;
+}
