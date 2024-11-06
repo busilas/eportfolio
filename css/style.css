@@ -520,3 +520,7 @@ a {
 	margin-bottom: 0px!important;
 	margin-left: 20px;
 }
+
+.card-body span {
+	font-size: 14px;
+}
